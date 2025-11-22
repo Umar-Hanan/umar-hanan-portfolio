@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Security Meta Tags -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <title>Umar Hanan - Portfolio | Creative Designer & Developer</title>
+    <meta name="description" content="Portfolio of Umar Hanan - Creative Designer, Web Developer, and Multi-Skilled Digital Artist specializing in Graphics Design, UI/UX, Web Development, and Game Development.">
+    <meta name="keywords" content="portfolio, web developer, graphic designer, UI/UX designer, game developer, creative designer">
+    <meta name="author" content="Umar Hanan">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+    <!-- Flaticon Icons -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="image/ss.jpeg" alt="Umar Hanan Logo" class="logo-image">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#graphics" class="nav-link">Graphics</a></li>
+                <li><a href="#web" class="nav-link">Web Dev</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <div class="red-box-bg"></div>
+                <div class="frame-decoration"></div>
+                <img src="image/my-img.png" alt="Umar Hanan" class="profile-img">
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">I'm <span class="highlight-red">Umar Hanan</span></h1>
+                <p class="hero-tagline">Creative Designer | Web Developer | Multi-Skilled Digital Artist</p>
+                <div class="hero-bio">
+                    <p><strong>Currently studying in DAE (Diploma of Associate Engineering), 2nd Year.</strong></p>
+                    <p>I scored <span class="highlight-yellow">912/1200</span> in 1st Year.</p>
+                    <p>A passionate multi-skilled creator with strengths in graphic design, UI/UX, website development, animation, and game development, supported by solid technical skills including networking, databases, and computer troubleshooting.</p>
+                    <p>I can do the work of <span class="highlight-mint">ten people</span> using the power of AI tools like ChatGPT, Claude, and Gemini.</p>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'})">View Portfolio</button>
+                    <button class="btn btn-secondary" onclick="downloadCV()">Download CV</button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="dot dot-1"></div>
+            <div class="dot dot-2"></div>
+            <div class="dot dot-3"></div>
+        </div>
+    </section>
+
+    <!-- Skills Preview Grid -->
+    <section id="skills" class="skills-preview">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight-red">Skills</span></h2>
+            <div class="skills-grid">
+                <a href="graphics-skill.html" class="skill-card" style="text-decoration: none; color: inherit;">
+                    <div class="skill-icon"><i class="fi fi-rr-palette"></i></div>
+                    <h3>Graphics Designing</h3>
+                    <p>Expert in Adobe Suite</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                    <span class="skill-more">Learn More →</span>
+                </a>
+                <a href="uiux-skill.html" class="skill-card" style="text-decoration: none; color: inherit;">
+                    <div class="skill-icon"><i class="fi fi-rr-pencil"></i></div>
+                    <h3>UI/UX Designing</h3>
+                    <p>Figma & Design Systems</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <span class="skill-more">Learn More →</span>
+                </a>
+                <a href="webdev-skill.html" class="skill-card" style="text-decoration: none; color: inherit;">
+                    <div class="skill-icon"><i class="fi fi-rr-laptop"></i></div>
+                    <h3>Website Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                    <span class="skill-more">Learn More →</span>
+                </a>
+                <a href="gamedev-skill.html" class="skill-card" style="text-decoration: none; color: inherit;">
+                    <div class="skill-icon"><i class="fi fi-rr-gamepad"></i></div>
+                    <h3>Game Development</h3>
+                    <p>Unity & C#</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <span class="skill-more">Learn More →</span>
+                </a>
+                <a href="animation-skill.html" class="skill-card" style="text-decoration: none; color: inherit;">
+                    <div class="skill-icon"><i class="fi fi-rr-play"></i></div>
+                    <h3>2D Animation</h3>
+                    <p>Krita & Adobe Animate</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <span class="skill-more">Learn More →</span>
+                </a>
+                <a href="3d-skill.html" class="skill-card" style="text-decoration: none; color: inherit;">
+                    <div class="skill-icon"><i class="fi fi-rr-cube"></i></div>
+                    <h3>3D Modeling</h3>
+                    <p>Blender Basics</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                    <span class="skill-more">Learn More →</span>
+                </a>
+                <a href="technical-skill.html" class="skill-card" style="text-decoration: none; color: inherit;">
+                    <div class="skill-icon"><i class="fi fi-rr-settings"></i></div>
+                    <h3>Technical Skills</h3>
+                    <p>Troubleshooting & Networking</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 100%"></div>
+                    </div>
+                    <span class="skill-more">Learn More →</span>
+                </a>
+                <a href="ai-skill.html" class="skill-card" style="text-decoration: none; color: inherit;">
+                    <div class="skill-icon"><i class="fi fi-rr-brain"></i></div>
+                    <h3>AI Tools Expertise</h3>
+                    <p>ChatGPT, Claude, Gemini</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                    <span class="skill-more">Learn More →</span>
+                </a>
+                <a href="office-skill.html" class="skill-card" style="text-decoration: none; color: inherit;">
+                    <div class="skill-icon"><i class="fi fi-rr-document"></i></div>
+                    <h3>Office Suite</h3>
+                    <p>Word, Excel, PowerPoint</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 98%"></div>
+                    </div>
+                    <span class="skill-more">Learn More →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Graphics Designing Page -->
+    <section id="graphics" class="section-page graphics-page">
+        <div class="container">
+            <h2 class="section-title"><i class="fi fi-rr-palette"></i> <span class="highlight-red">Graphics</span> Designing</h2>
+            
+            <!-- Journey Section -->
+            <div class="journey-section">
+                <h3 class="subsection-title">My Journey</h3>
+                <p class="journey-text">I started my graphics designing journey in <span class="highlight-yellow">August 2023</span> and haven't looked back since!</p>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Aug 2023 → Jan 2024</h4>
+                            <p>Completed Graphics Designing Certificate</p>
+                            <p class="score"><strong>Score: 877/1000</strong></p>
+                            <div class="certificate-download tool-card" onclick="downloadCertificate()">
+                                <div class="tool-icon tool-logo">
+                                    <i class="fas fa-certificate" style="font-size: 2.5rem; color: #FF6B6B;"></i>
+                                </div>
+                                <h4>Download Certificate</h4>
+                                <p>Click to download my Graphics Design certificate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="tools-section">
+                <h3 class="subsection-title">Tools I Master</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon tool-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png" alt="Photoshop">
+                        </div>
+                        <h4>Adobe Photoshop</h4>
+                        <p>Expert</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon tool-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1200px-Adobe_Illustrator_CC_icon.svg.png" alt="Illustrator">
+                        </div>
+                        <h4>Adobe Illustrator</h4>
+                        <p>Expert</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon tool-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png" alt="Figma">
+                        </div>
+                        <h4>Figma</h4>
+                        <p>Expert</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon tool-logo">
+                            <img src="https://krita.org/images/krita-logo.png" alt="Krita Logo">
+
+                        </div>
+                        <h4>Krita</h4>
+                        <p>Advanced</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon tool-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Adobe_Animate_CC_icon_%282020%29.svg" alt="Animate">
+                        </div>
+                        <h4>Adobe Animate</h4>
+                        <p>Advanced</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Showcase Section -->
+            <div class="showcase-section">
+                <h3 class="subsection-title">My Work Showcase</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="image/poster.jpg" alt="Poster">
+                        <p>Poster Design</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/socal.jpg" alt="Social Media">
+                        <p>Social Media Design</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/logo.jpg" alt="Logo">
+                        <p>Logo Design</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/card.jpg" alt="Business Card">
+                        <p>Business Card</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/ill.jpg" alt="Illustration">
+                        <p>Illustration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Development Page -->
+    <section id="web" class="section-page web-page">
+        <div class="container">
+            <h2 class="section-title"><i class="fi fi-rr-globe"></i> <span class="highlight-mint">Web</span> Development</h2>
+            
+            <div class="story-section">
+                <p class="story-text">I started website designing alongside graphics designing. I use <span class="highlight-yellow">HTML, CSS, JavaScript</span>, and I am currently improving my skills in the 2nd year of DAE.</p>
+            </div>
+
+            <!-- Skill Levels -->
+            <div class="skill-levels">
+                <h3 class="subsection-title">Skill Levels</h3>
+                <div class="skill-meter">
+                    <div class="meter-item">
+                        <label>Website Development</label>
+                        <div class="meter-bar">
+                            <div class="meter-fill" style="width: 80%"></div>
+                        </div>
+                        <span class="meter-text">80%</span>
+                    </div>
+                    <div class="meter-item">
+                        <label>UI Planner</label>
+                        <div class="meter-bar">
+                            <div class="meter-fill" style="width: 90%"></div>
+                        </div>
+                        <span class="meter-text">Expert</span>
+                    </div>
+                    <div class="meter-item">
+                        <label>Responsive Design</label>
+                        <div class="meter-bar">
+                            <div class="meter-fill" style="width: 85%"></div>
+                        </div>
+                        <span class="meter-text">Advanced</span>
+                    </div>
+                    <div class="meter-item">
+                        <label>Code Quality</label>
+                        <div class="meter-bar">
+                            <div class="meter-fill" style="width: 80%"></div>
+                        </div>
+                        <span class="meter-text">Strong</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="tech-stack">
+                <h3 class="subsection-title">Technologies</h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js-square"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                        <p>React</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Showcase -->
+            <div class="web-showcase">
+                <h3 class="subsection-title">Project Showcase</h3>
+                <div class="projects-vertical-scroll">
+                    <div class="project-item">
+                        <div class="project-image">
+                            <img src="image/landing.jpg" alt="Landing Page">
+                        </div>
+                        <div class="project-details">
+                            <h4>Landing Pages</h4>
+                            <p>Modern, conversion-focused landing pages with smooth animations and optimized performance</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-image">
+                            <img src="image/travel.png" alt="Business">
+                        </div>
+                        <div class="project-details">
+                            <h4>Business Homepages</h4>
+                            <p>Professional business websites with full functionality and SEO optimization</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Backend</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-image">
+                            <img src="image/ui.jpg" alt="UI">
+                        </div>
+                        <div class="project-details">
+                            <h4>UI Design Systems</h4>
+                            <p>Responsive UI design systems and reusable components for scalable applications</p>
+                            <div class="project-tech">
+                                <span>Figma</span>
+                                <span>Components</span>
+                                <span>Design System</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-Skills Section -->
+    <section id="other-skills" class="section-page other-skills">
+        <div class="container">
+            <h2 class="section-title">More <span class="highlight-red">Skills</span></h2>
+            
+            <!-- Game Development -->
+            <div class="skill-section">
+                <h3 class="subsection-title"><i class="fi fi-rr-gamepad"></i> Game Development</h3>
+                <div class="skill-content">
+                    <p>I develop games using <span class="highlight-yellow">Unity</span> with C#. Game development combines my passion for creativity and problem-solving.</p>
+                    <div class="skill-bar-large">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <p class="skill-percentage">85%</p>
+                </div>
+            </div>
+
+            <!-- 2D Animation -->
+            <div class="skill-section">
+                <h3 class="subsection-title"><i class="fi fi-rr-play"></i> 2D Animation</h3>
+                <div class="skill-content">
+                    <p>Proficient in <span class="highlight-mint">Krita</span> and <span class="highlight-mint">Adobe Animate</span> for creating engaging 2D animations.</p>
+                    <div class="skill-bar-large">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <p class="skill-percentage">75%</p>
+                </div>
+            </div>
+
+            <!-- 3D Modeling -->
+            <div class="skill-section">
+                <h3 class="subsection-title"><i class="fi fi-rr-cube"></i> 3D Modeling</h3>
+                <div class="skill-content">
+                    <p>Learning <span class="highlight-yellow">Blender</span> for 3D modeling and visualization.</p>
+                    <div class="skill-bar-large">
+                        <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                    <p class="skill-percentage">50%</p>
+                </div>
+            </div>
+
+            <!-- Database Management -->
+            <div class="skill-section">
+                <h3 class="subsection-title"><i class="fi fi-rr-database"></i> Database Management</h3>
+                <div class="skill-content">
+                    <p>Experienced in database design, SQL, and data management.</p>
+                    <div class="skill-bar-large">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                    <p class="skill-percentage">80%</p>
+                </div>
+            </div>
+
+            <!-- Android Development -->
+            <div class="skill-section">
+                <h3 class="subsection-title"><i class="fi fi-rr-mobile"></i> Android App Development</h3>
+                <div class="skill-content">
+                    <p>Building Android applications with modern development practices.</p>
+                    <div class="skill-bar-large">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <p class="skill-percentage">75%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Page -->
+    <section id="technical" class="section-page technical-page">
+        <div class="container">
+            <h2 class="section-title"><i class="fi fi-rr-settings"></i> <span class="highlight-yellow">Technical</span> Skills</h2>
+            
+            <div class="tech-skills-grid">
+                <div class="tech-skill-card">
+                    <div class="tech-skill-icon"><i class="fi fi-rr-laptop"></i></div>
+                    <h4>Computer Troubleshooting</h4>
+                    <p class="skill-level">Expert</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="tech-skill-card">
+                    <div class="tech-skill-icon"><i class="fi fi-rr-settings"></i></div>
+                    <h4>Windows Installation</h4>
+                    <p class="skill-level">Expert</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="tech-skill-card">
+                    <div class="tech-skill-icon"><i class="fi fi-rr-puzzle"></i></div>
+                    <h4>Problem Solving</h4>
+                    <p class="skill-level">Advanced</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="tech-skill-card">
+                    <div class="tech-skill-icon"><i class="fi fi-rr-globe"></i></div>
+                    <h4>Networking</h4>
+                    <p class="skill-level">Expert</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="tech-skill-card">
+                    <div class="tech-skill-icon"><i class="fi fi-rr-wifi"></i></div>
+                    <h4>IP Configuration</h4>
+                    <p class="skill-level">Expert</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="tech-skill-card">
+                    <div class="tech-skill-icon"><i class="fi fi-rr-wifi"></i></div>
+                    <h4>Router Setup</h4>
+                    <p class="skill-level">Advanced</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="tech-skill-card">
+                    <div class="tech-skill-icon"><i class="fi fi-rr-bolt"></i></div>
+                    <h4>System Optimization</h4>
+                    <p class="skill-level">Expert</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="section-page languages-page">
+        <div class="container">
+            <h2 class="section-title"><i class="fi fi-rr-globe"></i> <span class="highlight-mint">Languages</span></h2>
+            
+            <div class="languages-grid">
+                <div class="language-card">
+                    <div class="language-icon-bg">
+                        <span class="language-icon"><i class="fi fi-rr-flag"></i></span>
+                    </div>
+                    <h3>Urdu</h3>
+                    <p class="language-level">Native Speaker</p>
+                    <div class="language-bar">
+                        <div class="language-progress" style="width: 100%"></div>
+                    </div>
+                    <span class="language-percentage">100%</span>
+                </div>
+                <div class="language-card">
+                    <div class="language-icon-bg">
+                        <span class="language-icon"><i class="fi fi-rr-flag"></i></span>
+                    </div>
+                    <h3>English</h3>
+                    <p class="language-level">Fluent</p>
+                    <div class="language-bar">
+                        <div class="language-progress" style="width: 95%"></div>
+                    </div>
+                    <span class="language-percentage">95%</span>
+                </div>
+                <div class="language-card">
+                    <div class="language-icon-bg">
+                        <span class="language-icon"><i class="fi fi-rr-globe"></i></span>
+                    </div>
+                    <h3>Other Languages</h3>
+                    <p class="language-level">AI Assisted</p>
+                    <div class="language-bar">
+                        <div class="language-progress" style="width: 85%"></div>
+                    </div>
+                    <span class="language-percentage">85%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tools Expert Page -->
+    <section id="ai-tools" class="section-page ai-tools-page">
+        <div class="container">
+            <h2 class="section-title"><i class="fi fi-rr-brain"></i> <span class="highlight-red">AI</span> Tools Expert</h2>
+            
+            <div class="ai-intro">
+                <p class="ai-text">I know how to use AI tools to increase productivity and <span class="highlight-yellow">do the work of 10 people solo</span>.</p>
+            </div>
+
+            <div class="ai-tools-showcase">
+                <div class="ai-tool">
+                    <div class="ai-icon ai-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png" alt="ChatGPT">
+                    </div>
+                    <h3>ChatGPT</h3>
+                </div>
+                <div class="ai-tool">
+                    <div class="ai-icon ai-logo">
+                        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/claude-ai-icon.png" alt="Claude">
+                    </div>
+                    <h3>Claude</h3>
+                </div>
+                <div class="ai-tool">
+                    <div class="ai-icon ai-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1200px-Google_Gemini_logo.svg.png" alt="Gemini">
+                    </div>
+                    <h3>Gemini</h3>
+                </div>
+                <div class="ai-tool">
+                    <div class="ai-icon ai-logo">
+                        <img src="https://images.seeklogo.com/logo-png/50/2/midjourney-logo-png_seeklogo-501203.png" alt="Midjourney">
+                    </div>
+                    <h3>Midjourney</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="section-page about-page">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight-red">Me</span></h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>My Journey</h3>
+                    <p>I started my design journey in <span class="highlight-yellow">2023</span> with a passion for creating beautiful digital experiences. My path has been filled with continuous learning and growth.</p>
+                    
+                    <h3>Achievements</h3>
+                    <ul class="achievements-list">
+                        <li>✓ Earned Graphics Designing Certificate with <span class="highlight-yellow">877/1000</span></li>
+                        <li>✓ Scored <span class="highlight-yellow">912/1200</span> in DAE 1st Year</li>
+                        <li>✓ Started web development alongside graphics design</li>
+                        <li>✓ Learned multiple skills in just 2 years</li>
+                        <li>✓ Passionate about computers since childhood</li>
+                        <li>✓ Build games in Unity</li>
+                        <li>✓ Love solving technical problems</li>
+                        <li>✓ Expert at managing tasks using AI</li>
+                    </ul>
+
+                    <h3>Philosophy</h3>
+                    <p>I believe in <span class="highlight-mint">continuous learning</span> and exploring new technologies. With AI tools and modern development practices, I can deliver exceptional results efficiently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="section-page contact-page">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight-red">Touch</span></h2>
+            
+            <div class="contact-content">
+                <div class="contact-info-center">
+                    <h3>Get In Touch</h3>
+                    <div class="email-display">
+                        <i class="fas fa-envelope"></i>
+                        <span class="email-text">uh568662@gmail.com</span>
+                    </div>
+                    <p>Feel free to reach out for collaborations, projects, or just to say hello!</p>
+                    
+                    <div class="social-links">
+                        <a href="https://wa.me/923231807785" class="social-btn whatsapp" title="WhatsApp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:uh568662@gmail.com" class="social-btn email" title="Email" target="_blank">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="4041.html" class="social-btn linkedin" title="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Crevo. All rights reserved. | Crafted with <span class="highlight-red"><i class="fi fi-rr-heart"></i></span> and Creativity</p>
+        </div>
+    </footer>
+
+    
+    <!-- Main Script -->
+    <script src="script.js" defer></script>
+</body>
+</html>

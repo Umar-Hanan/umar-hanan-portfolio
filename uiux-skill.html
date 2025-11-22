@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Flaticon Icons -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><img src="image/ss.jpeg" alt="Umar Hanan Logo" class="logo-image"></div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <section class="section-page" style="margin-top: 70px;">
+        <div class="container">
+            <div class="skill-page-header">
+                <a href="index.html#skills" class="back-button">
+                    <i class="fi fi-rr-arrow-left"></i> Back to Skills
+                </a>
+                <div class="skill-title-section" style="border-left-color: #FF6B6B;">
+                    <div class="skill-icon-large" style="background: linear-gradient(135deg, #FF6B6B, #FF5252);">
+                        <i class="fi fi-rr-pencil"></i>
+                    </div>
+                    <div>
+                        <h1>UI/UX Designing</h1>
+                        <p class="skill-subtitle">Creating Beautiful User Experiences</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-modal-section">
+                <h3>📖 About This Skill</h3>
+                <p>Specialized in designing intuitive and beautiful user interfaces. I focus on user experience, accessibility, and modern design principles. I create designs that are not only visually stunning but also highly functional and user-friendly.</p>
+            </div>
+
+            <div class="skill-modal-section">
+                <h3><i class="fi fi-rr-wrench"></i> Design Tools</h3>
+                <div class="software-grid">
+                    <div class="software-item">
+                        <div class="software-icon tool-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png" alt="Figma">
+                        </div>
+                        <h4>Figma</h4>
+                        <p>Expert</p>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-icon tool-logo">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOMAAADeCAMAAAD4tEcNAAAAsVBMVEVHATf/Yfb/////ZPz/Zf//Yvk9ACyfNZQ3ACRFADXSTclDADJAAC9EADM8ACmlN5oyAB1LBzzKSMCKKn4vABk1ACH1XOzg2d7ZT89SC0MuABi8QrLMwclqRF9/JXN3WW7qV+CmlKBeMlKWf4+fi5loGVteE1DlVdy2QKxwHWOQLoWsO6GBJnWKcINQFEHCtr5kPFlYKEvp5OhjFlXDRbkoAA2woKyFaHxNED5sSGJSHUT8F3xcAAALpUlEQVR4nO1daVfiTBPtrCRmIShhFQVUxAVx1Eed+f8/7E1AJCS3khCyQL+5H+bMORKom+qurq27mZiA7nKyuJ6+tNjxofUyvV5Mlt0kCiyW32TkuppqGnrVdAjohqlqrjOaxPKkOb7dMsc2qmaRCobtsFuaJsXx8rWtHqv2EHS1/Xq5F8fLf+5paDAIw/23TM2x++qckgq30J1XNGIBx5vB6elwA2Nwk4Jjt2VXLehBsFlElWGOn4PTHKZb6IPPeI5fTtUi5gDnK47j6LTH6Qb2iOY4VauWLieoU4ojNxRDJAMcR/xQ9EiOEMcFH3NxA/sryvGTB4sahPMZ5tgdVC1T7hh0Qxy/T33pj0L/3uV4w9dkXMO+CXLkcKT6+Bmta46j04004mCMthwvebOpGziXvxz/WFULUxCsPxuO3KrxR5E+x798zkYfxt81x7d21ZIUiPbbiuMtT754GOrtiuM3rxbHh/Xtc+zya3F8OF2P44RHN24Le+Jx5Niq+vAsKxPdqqUoGK7IOJ+O/oRkS61qIQqGtmQTnldHH+qELcyqhSgY5oJd821WPcN6zab8JXJ2YU3ZS9UyFI4XdoxNKfmCf4Y1atSoUeP/G7oJULVQ+ULvXwDw5YtqZ7IUgdzgKjjUzhQhAqnmeGqoOfKBIjnqEHl8834ojqNhtRBY2o5zTbWjULMUIArjaL3LGJ27VCTdeyCYoMwzkCxOj9oYCemJOU5TmzUvZPSw/JzBBytwrN5BKT05H1Io0ulANZ5lqV0XaHPccwkrspdcKlEf4QtSWlnqugVy1BkerIL8nqhItwMfbGaqeRa5dthNPFqVs6S6nt1EQ0AZZ6sHFuoD4Enl6WOWMORs/NhDtqCvUI7mFaHI83iF2E9IjdJ5xpJnsb5cG317oiJ1Cz6lsIw+UrEc9T5hWs/iVKIN0VMZDQ4r3CfX4KiLN634xSjjzMX5ouMODZuduDUSr6tZDQ4rnqOKfbIYZ8eaoScyGxxWQvw46GFF3lNeWRs+oFjZg7LCOWK1eIq8wGPPfECflxsHdHUVnwdwoZUUlA4efG0UU6WLVSgUz1FXoR4J1eCYKlWoQqKEfA4RQwiCCaYYdP+kj4Ma18rIWcHh5/3KMNqqpTbg+zjswIgyOFLRstSPeHQa+txBBoeVlHskouWoRwedcWV84G6gUjjqOuGah0wJdsbldEmu0E8a5iavpw5KySET0XJYQ9AZ39vgGKrmaP2Hx8bTfDj8GD41LpBXkX+e3MFJOvkx+ENElILMLwVddbWH5vlYkYPlOPTb+XOkomUheEgLnLa7ryGBoDNr9iRZUohEUrEcqWg5uH5Ar0+5T2twLM1q3MtQZyVxpKLlwPrhoteQIoe3/n539qGkJlgMRypa3q4fxjtQozRMZ3C0/rmMX2KZHJmLo+Xf9cOBoznV6m9q831UWBxHooKxCSShM5TO4LhXnf10WBhHIvgV5KtVIOmAv6YyOJY7lPdVYmEciWh5HRsaKDROzDV7MFvj/ZVYGEcip7jOCCAlS/PkPST2g5BBicVxJFL8fkYAqrGTbHC0q72NTcEciWjZsyxoNsoXiVJoz4T7VB1HIlpWOv8Bo6r0EnM4NuUhVsmRiJblZ7A2Jhsc8y6TtSmYI3M/oFigoppscPRWRnNTMEfdSCtWJ9GmOjhNVDlHZuOkVATJDRzuPPabFEVaxZD+PyVzpKLlsISJBgfn0zePS9L4o3E167PW7OFxjpoLiuQYK9tWgmjKLgSqDu8zlMeNvmOrhqXrumWY/5XeE4jji5AAT0mzEZfTV5Dvr3bPgC2/71FvJVp8qhYS/BLqRSnCxSA0lSvo7YxRwUYTV0kGh3B9vUd7RkT2KvpXiWh5q4rYbgEf5FiQ5+D80Co4mgleptRPyjbac6LNoInMcSV9yES0vPn1RIPDHEqLcMWphKM1i5uRcuK6QaRNpB5OG1TTT64RY22F5PUfCi2QGfVqODrncYM1MXC0cWKIeqwSjkm+TkICANssuoRXCcekxSMhrrLh4iiRecoqOFJ9rVvEx8fYrVdI5VfAkSp9BOWNTayauNWcrBpUwJFq+NxRZEyCHCdMpCb5RPkcyVLkLujbI8xH3DNIFrjK55hkcH5EoAtW2KeXW+RLKZ1j7PIflJnsdLA/4EuiTXHZHOPduABos4O9nJiQs2yORKsnANl55KKviGtTLpkjbtklaBMtqwRHuuBcMkcbpcg62HuViB0SmOP9sXDETUYNnYh48XJw3GMVtjUIHY2wtYSXDTkejc2BZSvvx8g2XrilA9tVhRa5TI64/Nhx6QoB3Auowekb48aXyBFra32mBOH8SChDR4RWRA9+uRxhXe4nXUxuAwGZVmLH2fAIYiscLmwCjAEutCmd6JKAffIYw1oeRxjZ/koGmx58UZ4i6iE+KpNZ2dI4YrOyLTNSpZ5oQplIkoO3UTJH3EYd2JFkUdsIo5lIB25WVjpV56wcYjPc1pOhyjTRijKRXiVzByVxxNnGHR3pBqTo6SccGRKFr+gHy+WIU2m7Dbh4MznIRJL2aY798nI44mxjeOs1nmfAhSFKOt5qCuUuhaOFq75hk0ltzIqYHezN+Z+cIcFL4YizjdH9VlTPR7iSQab2FOEOzMkyOBIiRffCk7KHCyBtYlT7okdvEy2DI3a4UVGDKr6GM5GxXR3vTvk9D9T+efAbOIgWIlsgyONOBL87p3dhu6r5a6d0OFVy5Ug4MBKMf13CmoQzkfFFWlk4a171nbbjOG3T6F+haZ4rR2L84QWbrPeEnBjKYfil6ffJCZ1OR5EkvHcnpj6yN4gmDuq4RQ03fwrhQnja3kISeXLUCAeaSBVaVOdNeIsgEXCm50iGKftTxBOHrr3RHVS7BRCrfyDHLCecQZB7OsgaKmkyw89Q6ZG0HOncyJ4gtpTHNcSRJjNcAElo0k2A8pHTBSTU8WJxJ5PFtGOHHKM2cfBZOo5nOXHEm1YSdlFTzXDRs1faZ9lJxhVI9gF1VEf8cVa6SckVOUNncJ55uB5w5lAQ9NkH8X2NpDcalaudfU4m9gGnwh5nWOyCKH+gAojzmHXDVbrtowmw9zmLZPdJIuvhvZ9IAcSejTOpUolpIEgNalphZ3wXLilZtABiDRrK3qZHku+zn48VkBN7nqQXF4TdoKSGBRA2xPtUqBclC8O7dg53HlHJs5RbjEn5ULyia625kG7DrheQCOfPmpbLrU7uWFIApHSnNnnOQ/Ro+Jjz4XXbvejhQyt2+Mnj+YOj5XVXgH0OMUyxxXj1+KzRxKB6xkyXPZ4J8CAL/916+uvNL3THzvNeLltDsNMeMGKpBGIOGFQ1967xcS/IgRNJvP8Lnd5H83nmuvY+x5scLwyPp8bunh/9YdBoPD5fvTPbcTWVD3pb6IZprpVumsYBh+/VqFGjRo0aNWrUqFGjRo0aNWrUqFGjfPB/83yLvVQtQuF4YdMsN7+dEqwpu86zNnKMMK7ZgrPLsCMwF2zC1bW0AOqELXNqUzpaaEvWzaW95YjhdJmYTyvW8cIVmfiXb8Nq/PU4TnLr4z1K2BOPI+cT0ul6HMVvnj0d61v0Od7yvEKqtyuOb4fcAXfsaL+tOPJsWY2RuOZ4ya/VcS5/OIp/eLU61h9xw5FbRa7UuOYojvickavZuOHYPfC2uyPFoBvgKN7w6NDZN2KQo/jNX8ed/i3ucuRwtP6M1C1H8ZM32+p8imGO4oKvKWl/iVGO4ogn31wdiYijOOWHpDoVMUd+SO5Q3OUojviYk/ZIpDmKXzxYV+dLjOMofoI7JU4L+uBTjOcodlunPV5t1g1TinD0fNfoqS4nA2NwEyUEOIrdV+c0g2bdmUaUSHD0guZ/7unp0nD/LSEbzNFj+dqmT08/Quhq+/WS4EJxFMW3W5bvBrziYNgOu30jmdAcPXQnI9ffqmYcq0b9W+k11xlN0DRMx3HFczlZXE9fjrHFpfUyvV5MlrH8fPwPcCbMzQCjLuoAAAAASUVORK5CYII=" alt="Adobe XD">
+                        </div>
+                        <h4>Adobe XD</h4>
+                        <p>Advanced</p>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-icon tool-logo">
+                            <img src="https://cdn-icons-png.flaticon.com/512/541/541611.png" alt="Sketch">
+                        </div>
+                        <h4>Sketch</h4>
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-icon tool-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png" alt="Prototyping">
+                        </div>
+                        <h4>Prototyping</h4>
+                        <p>Expert</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-modal-section">
+                <h3>📊 Proficiency Levels</h3>
+                <div class="skill-progress-bar">
+                    <label>UI Design</label>
+                    <div class="bar"><div class="fill" style="width: 90%"></div></div>
+                    <span class="percentage">90%</span>
+                </div>
+                <div class="skill-progress-bar">
+                    <label>UX Research</label>
+                    <div class="bar"><div class="fill" style="width: 85%"></div></div>
+                    <span class="percentage">85%</span>
+                </div>
+                <div class="skill-progress-bar">
+                    <label>Prototyping</label>
+                    <div class="bar"><div class="fill" style="width: 88%"></div></div>
+                    <span class="percentage">88%</span>
+                </div>
+                <div class="skill-progress-bar">
+                    <label>Design Systems</label>
+                    <div class="bar"><div class="fill" style="width: 85%"></div></div>
+                    <span class="percentage">85%</span>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="index.html#skills" class="btn btn-primary">← Back to Skills</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Umar Hanan. All rights reserved. | Crafted with <span class="highlight-red">❤️</span> and creativity</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
